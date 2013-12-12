@@ -38,7 +38,7 @@
 		</a>
 		<?php endif; // End header image check. ?>	
 				
-			<h1 class="remove-botton"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="logo">KirillCup</a></h1>
+			<h1 class="remove-botton"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="logo">SilverCup</a></h1>
 			<h5 class="site-description">properties</h5>
 		</div>
 		</div>

@@ -11,10 +11,10 @@
 
 	<footer id="main-footer" class="full-w">
 		  <div class="container">
-		    <div class="fourteen columns">
+		    <div class="twelve columns">
 		      <p>&copy; 2013 Silvercup Properties. All Rights Reserved.</p>
 		    </div>
-		    <div class="two columns">
+		    <div class="three columns">
 		      <a href="/contact-us">Contact Us</a>
 		    </div>
 		  </div>

@@ -2,16 +2,14 @@ $(window).load(function(){
   $('.flexslider').flexslider({
    animation: "fade",
    slideshowSpeed: 2500,
-   animationSpeed: 3000, 
-    start: function(slider){
-      slider.removeClass('loading');
+   animationSpeed: 3000,
+   start: function(slider){
+     slider.removeClass('loading'); 
     }
   });
 });
 
-
-
-	$(function () {
+$(function () {
 		$('.footable').footable();
 	});
 	$('.footable').footable({
@@ -22,8 +20,8 @@ $(window).load(function(){
 	    }
 	});
    
-	WebFont.load({
+WebFont.load({
 	      custom: {
-	         families: ['Raleway-ExtraLight']
+	         families: ['Raleway']
 	      }
 	   });

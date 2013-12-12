@@ -1,5 +1,5 @@
 <?php
-// Register Recipe Custom Post-Type
+// Register Properties Custom Post-Type
 
 add_action('init', 'custom_post_type_register');
  
@@ -67,7 +67,7 @@ function custom_post_type_register() {
     )
     ); 
  
-  // register_post_type( 'heirloom_recipes' , $args );
+  // register_post_type( 'properties' , $args );
 
 	$labels = array(
 		'name' => 'Projects',

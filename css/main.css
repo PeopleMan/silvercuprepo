@@ -113,8 +113,8 @@ textarea {
    h1 span { display:block; font-size:14px; line-height:1.1em; color:#ffd26e; text-transform:uppercase; letter-spacing:-1px;}
    h5 a:hover { text-decoration:underline;}
    h6 { font-size:.91em;}
-   .remove-botton .logo{color:#CA313C;font-size:40px;margin:0px;font-weight:bold;line-height:1;font-family: Bitter, Georgia, serif;}
-   .site-description ,h5{font-size:1em;margin-bottom:4px;margin-left:59px;}
+   .remove-botton .logo{color:#CA313C;font-size:40px;margin:0px;font-weight:bold;line-height:1;font-family: Bitter, Georgia, serif;text-indent:-9999px;}
+   .site-description ,h5{font-size:1em;margin-bottom:4px;margin-left:59px;text-indent:-9999px;}
    .header_img{float:left;margin-top:35px;position:absolute;}
    .full-w {width: 100%;margin: 0 auto;}
    #main-footer {
@@ -127,15 +127,16 @@ textarea {
    background: linear-gradient(to bottom, #4d4d4d 0%,#414141 50%,#303030 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', endColorstr='#303030',GradientType=0 );
    float: left;
-   height:80px;
+   height:70px;
    margin-top:80px;
    }
    #main-footer p {margin-bottom: 0;margin: 0 0 20px 0;}
-   #main-footer p {color: #dcdcdc;line-height: 44px;text-decoration: none;font-family: 'ralewaysemibold',sans-serif;font-size: 12px;}
-   #main-footer a{color: #dcdcdc;line-height: 44px;text-decoration: none;font-family: 'ralewaysemibold',sans-serif;font-size: 12px;text-transform:uppercase;}
+   #main-footer p {color: #dcdcdc;line-height: 44px;text-decoration: none;font-family: 'Ralway',sans-serif;font-size: 12px;}
+   #main-footer a{color: #dcdcdc;line-height: 44px;text-decoration: none;font-family: 'Ralway',sans-serif;font-size: 12px;text-transform:uppercase;}
    #main-content{margin-bottom:160px;min-height:100%;margin-top:40px;position:relative;}
    .imgcontainer{width:100%;height:460px;}
    .container{position:relative;width:960px;margin:0 auto;padding:0px;}
+   .three.columns a{float:right;}
    
    
   
@@ -149,7 +150,7 @@ textarea {
    .nav-tabs > li > a {color: #bab6b6;text-transform: uppercase;border: 1px solid #ddd !important;border-bottom-color: transparent !important;border-radius: 0 !important;}
    .nav-tabs li.active a {color: #cc3139;font-size: 20px;padding: 12px;}
    .tab-pane {margin: 15px 0;float: left;width: 100%;}
-   .table-name {margin: 0;font-family:'ralewaysemibold',sans-serif;font-size: 23px;color: #cc323a;text-transform: uppercase;border: 1px solid #ddd !important;border-bottom-color: transparent !important;border-radius: 0 !important;padding: 10px;}
+   .table-name {margin: 0;font-family:'Ralway',sans-serif;font-size: 23px;color: #cc323a;text-transform: uppercase;border: 1px solid #ddd !important;border-bottom-color: transparent !important;border-radius: 0 !important;padding: 10px;}
    .footable > tbody > tr:hover {background: #f2f2f2; }
    .photo-icon {background: url("../images/sprite.png") 20px -208px no-repeat;text-indent: -9999px;width: 66px;height: 21px;display: block;}
    .tab-content {float: left;width: 100%;margin-bottom: 50px;}
