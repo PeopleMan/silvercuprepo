@@ -103,7 +103,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
     
-   *{margin:0;padding:0;}
+   *{margin:0;padding:0; }
    #header,#content,#footer{font-size:0.75em;position:relative;}
    header{height:131px;}
    .remove-botton{margin-top:25px;}
